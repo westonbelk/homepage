@@ -1,0 +1,64 @@
+body {
+	background-color: silver;
+	margin: 0;
+
+	font-size: 1.2em;
+}
+
+div.container {
+	/* Create and center the container for the inner content */
+	max-width: 800px;
+	margin: auto;
+	border-radius: 25px;
+
+	background-color: white;
+	/* Make sure the container stretches all the way to the bottom of the page */
+	display: flex;
+	flex-flow: column;
+}
+
+header {
+	background-color: red;
+	padding: 50px 10px;
+	border-radius: 25px 25px 0 0;
+}
+
+/* Content Styling */
+
+content {
+	padding: 0 10px;
+	display: flex;
+	flex-flow: column;
+}
+
+content section {
+
+}
+
+content section p {
+
+}
+
+content section img {
+	max-height: 100%;
+	max-width: 30%;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: blue;
+	padding: 25px 10px;
+	border-radius: 0 0 25px 25px;
+}
+
+/* Utility */
+.float-left {
+	float: left;
+	padding-right: 15px;
+}
+
+.float-right {
+	float: right;
+	padding-left: 15px;
+}
