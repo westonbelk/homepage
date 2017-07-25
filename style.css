@@ -1,0 +1,42 @@
+img.profile {
+	float: right;
+	height: 400px;
+	margin: 10px;
+}
+
+body {
+	font-size: 18px;
+}
+
+.media-object {
+	width: 256px;
+}
+
+.media {
+	padding: 5px;
+	border-width: 5px;
+	border-color: lightgrey;
+	border-style: solid;
+	border-radius: 6px;
+}
+
+@media screen and (max-width: 767px) {
+	/* Presentations Page - Media blocks */
+	.media-left {
+		display: block;
+	}
+
+	.media-body h3 {
+		text-align: center;
+	}
+
+	.media-object {
+		margin: auto auto;
+	}
+
+	/* Homepage floating */
+	img.profile {
+		clear: all;
+	}
+
+}
