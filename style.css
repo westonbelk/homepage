@@ -20,6 +20,10 @@ body {
 	border-radius: 6px;
 }
 
+.btn {
+	font-size: 16px;
+}
+
 @media screen and (max-width: 767px) {
 	/* Presentations Page - Media blocks */
 	.media-left {
