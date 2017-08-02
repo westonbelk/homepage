@@ -36,7 +36,10 @@ body {
 
 	/* Homepage floating */
 	img.profile {
-		clear: all;
+		float: none;
+		display: block;
+		margin: auto auto;
+		padding: 10px;
 	}
 
 	.btn-group-responsive {
