@@ -39,4 +39,24 @@ body {
 		clear: all;
 	}
 
+	.btn-group-responsive {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.btn-group-responsive .btn {
+		width: 100%;
+		margin-bottom: 5px;
+
+		/* Overrides */
+		margin-left: 0px !important;
+		border-top-right-radius: 4px !important;
+		border-top-left-radius: 4px !important;
+		border-bottom-right-radius: 4px !important;
+		border-bottom-left-radius: 4px !important;
+	}
+
 }

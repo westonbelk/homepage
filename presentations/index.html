@@ -4,8 +4,9 @@
 	<title>westonbelk.com</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -17,12 +18,12 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html">westonbelk.com</a>
+				<a class="navbar-brand" href="/">westonbelk.com</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navbar-links">
 				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="/">Home</a></li>
 					<li class="active"><a href="">Presentations</a></li>
 					<li><a href="https://github.com/westonbelk/">Github</a></li>
 				</ul>
@@ -48,7 +49,11 @@
 						<p>
 							Presentation for CPSC 2910: Ethics in Computing class at Clemson University. Discusses the purpose and benefits of free software and the GNU project with a focus on ethics.
 						</p>
-						<a href="https://github.com/westonbelk/gnu-presentation">View Source on Github</a>
+						<div class="btn-group btn-group-responsive">
+							<a href="/presentations/view/gnu" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
+							
+							<a href="https://github.com/westonbelk/gnu-presentation" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+						</div>
 					</div>
 				</div>
 
@@ -61,12 +66,30 @@
 						<p>
 							The basics of how a replay attack works, common uses of a replay attack, and how to prevent a replay attack in your web application.
 						</p>
+						<div class="btn-group btn-group-responsive">
+							<a href="/presentations/view/replay-attacks" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
+
+							<a href="https://cucyber.net/presentations/pentesting/replayattack/#/" class="btn btn-default"><i class="fa fa-eye"></i> View on cucyber.net</a>
+
+							<a href="https://github.com/CUCyber/presentations/blob/master/pentesting/replayattack.md" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="media">
+					<div class="media-left">
+						<img src="images/flag.png" class="media-object">
+					</div>
+					<div class="media-body">
+						<h3>East Coast Hospital CTF</h3>
 						<p>
-							<a href="https://cucyber.net/presentations/pentesting/replayattack/#/">View on cucyber.net</a>
+							A walkthrough of some of the problems of East Coast Hospital CTF. This was a CTF created by Max Harley and orchestrated by the Clemson Cyber Security Club.
 						</p>
-						</p>
-							<a href="https://github.com/CUCyber/presentations/blob/master/pentesting/replayattack.md">View Source on Github</a>
-						</p>
+						<div class="btn-group btn-group-responsive">
+							<a href="/presentations/view/max-ctf" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
+
+							<a href="https://github.com/CUCyber/presentations/blob/master/pentesting/replayattack.md" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+						</div>
 					</div>
 				</div>
 
