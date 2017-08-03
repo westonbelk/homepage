@@ -1,0 +1,6 @@
+- link: /
+  name: Home
+- link: /presentations/
+  name: Presentations
+- link: https://github.com/westonbelk/
+  name: Github

@@ -1,104 +1,58 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>westonbelk.com</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="/style.css">
-</head>
-<body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
-					<span class="sr-only">Toggle Navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="/">westonbelk.com</a>
-			</div>
-
-			<div class="collapse navbar-collapse" id="navbar-links">
-				<ul class="nav navbar-nav">
-					<li><a href="/">Home</a></li>
-					<li class="active"><a href="">Presentations</a></li>
-					<li><a href="https://github.com/westonbelk/">Github</a></li>
-				</ul>
-			</div>
+---
+layout: default
+title: westonbelk.com - Presentations
+hero_title: Presentations
+hero_text: A collection of presentations I have created and given.
+---
+<div class="media">
+	<div class="media-left">
+		<img src="images/heckert_gnu.png" class="media-object">
+	</div>
+	<div class="media-body">
+		<h3>GNU Presentation</h3>
+		<p>
+			Presentation for CPSC 2910: Ethics in Computing class at Clemson University. Discusses the purpose and benefits of free software and the GNU project with a focus on ethics.
+		</p>
+		<div class="btn-group btn-group-responsive">
+			<a href="/presentations/view/gnu" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
+			
+			<a href="https://github.com/westonbelk/gnu-presentation" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
 		</div>
-	</nav>
+	</div>
+</div>
 
-	<main class="container">
-		<article>
-			<header class="jumbotron">
-				<h1>Presentations</h1>
-				<p class="title-description">A collection of presentations I have created and given.</p>
-			</header>
+<div class="media">
+	<div class="media-left">
+		<img src="images/replay.png" class="media-object">
+	</div>
+	<div class="media-body">
+		<h3>Replay Attacks</h3>
+		<p>
+			The basics of how a replay attack works, common uses of a replay attack, and how to prevent a replay attack in your web application.
+		</p>
+		<div class="btn-group btn-group-responsive">
+			<a href="/presentations/view/replay-attacks" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
 
-			<section>
-				
-				<div class="media">
-					<div class="media-left">
-						<img src="images/heckert_gnu.png" class="media-object">
-					</div>
-					<div class="media-body">
-						<h3>GNU Presentation</h3>
-						<p>
-							Presentation for CPSC 2910: Ethics in Computing class at Clemson University. Discusses the purpose and benefits of free software and the GNU project with a focus on ethics.
-						</p>
-						<div class="btn-group btn-group-responsive">
-							<a href="/presentations/view/gnu" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
-							
-							<a href="https://github.com/westonbelk/gnu-presentation" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-						</div>
-					</div>
-				</div>
+			<a href="https://cucyber.net/presentations/pentesting/replayattack/#/" class="btn btn-default"><i class="fa fa-eye"></i> View on cucyber.net</a>
 
-				<div class="media">
-					<div class="media-left">
-						<img src="images/replay.png" class="media-object">
-					</div>
-					<div class="media-body">
-						<h3>Replay Attacks</h3>
-						<p>
-							The basics of how a replay attack works, common uses of a replay attack, and how to prevent a replay attack in your web application.
-						</p>
-						<div class="btn-group btn-group-responsive">
-							<a href="/presentations/view/replay-attacks" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
+			<a href="https://github.com/CUCyber/presentations/blob/master/pentesting/replayattack.md" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+		</div>
+	</div>
+</div>
 
-							<a href="https://cucyber.net/presentations/pentesting/replayattack/#/" class="btn btn-default"><i class="fa fa-eye"></i> View on cucyber.net</a>
+<div class="media">
+	<div class="media-left">
+		<img src="images/flag.png" class="media-object">
+	</div>
+	<div class="media-body">
+		<h3>East Coast Hospital CTF</h3>
+		<p>
+			A walkthrough of some of the problems of East Coast Hospital CTF. This was a CTF created by Max Harley and orchestrated by the Clemson Cyber Security Club.
+		</p>
+		<div class="btn-group btn-group-responsive">
+			<a href="/presentations/view/max-ctf" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
 
-							<a href="https://github.com/CUCyber/presentations/blob/master/pentesting/replayattack.md" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="media">
-					<div class="media-left">
-						<img src="images/flag.png" class="media-object">
-					</div>
-					<div class="media-body">
-						<h3>East Coast Hospital CTF</h3>
-						<p>
-							A walkthrough of some of the problems of East Coast Hospital CTF. This was a CTF created by Max Harley and orchestrated by the Clemson Cyber Security Club.
-						</p>
-						<div class="btn-group btn-group-responsive">
-							<a href="/presentations/view/max-ctf" class="btn btn-primary"><i class="fa fa-eye"></i> View</a>
-
-							<a href="https://github.com/CUCyber/presentations/blob/master/pentesting/replayattack.md" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-						</div>
-					</div>
-				</div>
-
-			</section>
-		</article>
-	</main>
-
-	<!-- Javascript -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
-</html>
+			<a href="https://github.com/CUCyber/presentations/blob/master/pentesting/replayattack.md" class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+		</div>
+	</div>
+</div>
