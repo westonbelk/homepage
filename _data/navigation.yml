@@ -2,5 +2,7 @@
   name: Home
 - link: /presentations/
   name: Presentations
+- link: /startpage/
+  name: Startpage
 - link: https://github.com/westonbelk/
   name: Github
