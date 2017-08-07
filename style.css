@@ -4,6 +4,8 @@ img.profile {
 	margin: 10px;
 }
 
+
+
 body {
 	font-size: 18px;
 }
@@ -24,7 +26,15 @@ body {
 	font-size: 16px;
 }
 
+.half-width {
+	width: 50%;
+}
+
 @media screen and (max-width: 767px) {
+	.mobile-full-width {
+		width: 100%;
+	}
+
 	/* Presentations Page - Media blocks */
 	.media-left {
 		display: block;
