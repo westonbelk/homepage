@@ -4,5 +4,7 @@
   name: Presentations
 - link: /startpage/
   name: Startpage
-- link: /web-projects/
-  name: Web Projects
+- link: /cv/
+  name: Resume/CV
+- link: /contact/
+  name: Contact
