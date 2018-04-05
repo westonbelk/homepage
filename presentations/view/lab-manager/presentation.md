@@ -18,7 +18,7 @@ I'm the lab manager, dude.
 
 ## Okay so what do you do
 
-* Make sure our presentation infrastructure doesn't implode *\*cough\** Nick *\*cough\**
+* Make sure our presentation infrastructure doesn't implode \*cough\* Nick \*cough\*
 * Create and maintain the Cyber Warfare Space
 * Make our lab run real real good
 * Plan out upgrades and monitoring within the lab
