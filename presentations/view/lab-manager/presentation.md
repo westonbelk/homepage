@@ -43,6 +43,7 @@ I'm the lab manager, dude.
 
 * More CTFs
 * Cyber Warfare Space
+* Competition networks
 
 ---
 
