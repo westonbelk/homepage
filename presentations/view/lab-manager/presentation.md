@@ -3,14 +3,17 @@
 System Administration and Architecture Specialist
 
 
+
 ## Why are you not running for VP again?
 
 * It's better for the club.
 
 
+
 ## What does that even *mean*
 
 I'm the lab manager, dude.
+
 
 
 ## Okay so what do you do
@@ -22,15 +25,18 @@ I'm the lab manager, dude.
 * Setup any competition environments we need
 
 
+
 ## Who do you work with
 
 **The** Level 5 Tech Support
+
 
 
 ## Definitely happening next year
 
 * More CTFs
 * Cyber Warfare Space
+
 
 
 ## Goals for next year
