@@ -3,6 +3,11 @@
 System Administration and Architecture Specialist
 
 
+## Why are you not running for VP again?
+
+* It's better for the club.
+
+
 ## What does that even *mean*
 
 I'm the lab manager, dude.
