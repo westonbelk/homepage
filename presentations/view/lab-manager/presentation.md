@@ -18,15 +18,22 @@ I'm the lab manager, dude.
 
 ## Okay so what do you do
 
-* Make sure our presentation infrastructure doesn't implode \*cough\* Nick \*cough\*
-* Create and maintain the Cyber Warfare Space
-* Make our lab run real real good
-* Plan out upgrades and monitoring within the lab
-* Setup any competition environments we need
+### System Administrator
+
+* Make sure everything is running well
+* Monitor activity
+* Add users to the lab
+* Fix things when they break
+
+### System Architect
+
+* Plan out our needs and potential growth
+* Work out a plan with our other officers to meet our needs
+* Design and implement new networks and strategies to meet our needs
 
 ---
 
-## Who do you work with
+## Who will you work with
 
 **The** Level 5 Tech Support
 
@@ -43,3 +50,4 @@ I'm the lab manager, dude.
 
 * Automated competition environments
 * Live presentation environments
+* Big secret ;)
