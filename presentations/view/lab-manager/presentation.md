@@ -29,7 +29,7 @@ I'm the lab manager, dude.
 
 * Plan out our needs and potential growth
 * Work out a plan with our other officers to meet our needs
-* Design and implement new networks and strategies to meet our needs
+* Design and implement new networks and strategies
 
 ---
 
