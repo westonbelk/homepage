@@ -6,30 +6,30 @@
 
 		<title>{{ page.title }}</title>
 
-		<link rel="stylesheet" href="/presentations/reveal/css/reveal.css">
-		<link rel="stylesheet" href="/presentations/reveal/css/theme/black.css">
+		<link rel="stylesheet" href="/vendor/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="/vendor/reveal.js/css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="/presentations/reveal/lib/css/zenburn.css">
+		<link rel="stylesheet" href="/vendor/reveal.js/lib/css/zenburn.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? '/presentations/reveal/css/print/pdf.css' : '/presentations/reveal/css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/vendor/reveal.js/css/print/pdf.css' : '/vendor/reveal.js/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="{{ page.markdown_src }}"{% if page.reveal_style == "cucyber" %} data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" {% endif %}></section>
+				<section data-markdown="readme.md"{% if page.reveal_style == "cucyber" %} data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" {% endif %}></section>
 			</div>
 		</div>
 
-		<script src="/presentations/reveal/lib/js/head.min.js"></script>
-		<script src="/presentations/reveal/js/reveal.js"></script>
+		<script src="/vendor/reveal.js/lib/js/head.min.js"></script>
+		<script src="/vendor/reveal.js/js/reveal.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -37,10 +37,10 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				dependencies: [
-					{ src: '/presentations/reveal/plugin/markdown/marked.js' },
-					{ src: '/presentations/reveal/plugin/markdown/markdown.js' },
-					{ src: '/presentations/reveal/plugin/notes/notes.js', async: true },
-					{ src: '/presentations/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '/vendor/reveal.js/plugin/markdown/marked.js' },
+					{ src: '/vendor/reveal.js/plugin/markdown/markdown.js' },
+					{ src: '/vendor/reveal.js/plugin/notes/notes.js', async: true },
+					{ src: '/vendor/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>

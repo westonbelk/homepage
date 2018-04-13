@@ -1,0 +1,6 @@
+[submodule "vendor/reveal.js"]
+	path = vendor/reveal.js
+	url = https://github.com/hakimel/reveal.js/
+[submodule "presentations"]
+	path = presentations
+	url = https://github.com/westonbelk/presentations

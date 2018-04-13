@@ -1,0 +1,90 @@
+- title: GNU Presentation
+  folder: gnu/
+  description: "Presentation for CPSC 2910: Ethics in Computing class at Clemson University. Discusses the purpose and benefits of free software and the GNU project with a focus on ethics."
+  show-view-local: True
+  
+  show-view-remote: False
+  view-remote-url: 
+  view-remote-text: 
+
+  show-source: True
+  source-url: https://github.com/westonbelk/presentations/gnu/
+  source-text: Github
+
+- title: Replay Attacks
+  folder: replay-attacks/
+  description: The basics of how a replay attack works, common uses of a replay attack, and how to prevent a replay attack in your web application.
+  show-view-local: False
+  
+  show-view-remote: True
+  view-remote-url: https://cucyber.net/presentations/pentesting/replayattack/#/
+  view-remote-text: View on cucyber.net
+
+  show-source: True
+  source-url: https://github.com/CUCyber/presentations/blob/master/pentesting/replayattack.md
+  source-text: Github
+
+- title: East Coast Hospital CTF
+  folder: max-ctf/
+  description: A walkthrough of some of the problems of East Coast Hospital CTF. This was a CTF created by Max Harley and orchestrated by the Clemson Cyber Security Club.
+  show-view-local: True
+  
+  show-view-remote: False
+  view-remote-url: 
+  view-remote-text: 
+
+  show-source: True
+  source-url: https://github.com/westonbelk/presentations/max-ctf/
+  source-text: Github
+
+- title: Information Gathering Foundations
+  folder: information-gathering/
+  description: Introduction to information gathering and auditing of machines and networks.
+  show-view-local: False
+  
+  show-view-remote: True
+  view-remote-url: https://cucyber.net/presentations/recon/info_gathering/#/
+  view-remote-text: View on cucyber.net
+
+  show-source: True
+  source-url: https://github.com/CUCyber/presentations/blob/master/recon/info_gathering.md
+  source-text: Github
+
+- title: Using Burpsuite
+  folder: burpsuite/
+  description: Introduction to the HTTP protocol and web proxy tools such as Burpsuite.
+  show-view-local: False
+  
+  show-view-remote: True
+  view-remote-url: https://cucyber.net/presentations/pentesting/burpsuite/#/
+  view-remote-text: View on cucyber.net
+
+  show-source: True
+  source-url: https://github.com/CUCyber/presentations/blob/master/pentesting/burpsuite.md
+  source-text: Github
+
+- title: Social Engineering
+  folder: social-engineering/
+  description: Common techniques and terms relating to social engineering as well as some of the theory behind it. Also goes over some helpful tools to launch your own attacks.
+  show-view-local: False
+
+  show-view-remote: True
+  view-remote-url: https://cucyber.net/presentations/misc/social-engineering/#/
+  view-remote-text: View on cucyber.net
+
+  show-source: True
+  source-url: https://github.com/CUCyber/presentations/blob/master/misc/social-engineering.md
+  source-text: Github
+
+- title: Host-Based Security
+  folder: 
+  description: 
+  show-view-local: False
+  
+  show-view-remote: True
+  view-remote-url: https://cucyber.net/presentations/misc/host-security/#/
+  view-remote-text: View on cucyber.net
+
+  show-source: True
+  source-url: https://github.com/CUCyber/presentations/blob/master/misc/host-security.md
+  source-text: Github
