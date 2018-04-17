@@ -4,6 +4,6 @@
 [submodule "presentations"]
 	path = presentations
 	url = https://github.com/westonbelk/presentations
-[submodule "ctf-writeups"]
-	path = ctf-writeups
+[submodule "_writeups"]
+	path = _writeups
 	url = https://github.com/westonbelk/ctf-writeups
