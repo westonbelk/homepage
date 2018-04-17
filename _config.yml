@@ -1,0 +1,12 @@
+
+collections:
+  writeups:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: writeups
+    values:
+      layout: ctf
+      
