@@ -4,9 +4,5 @@
   name: Presentations
 - link: /startpage/
   name: Startpage
-- link: /cv/
-  name: Resume/CV
-- link: /contact/
-  name: Contact
-- link: /writeups/
-  name: CTF Writeups
+# - link: /writeups/
+#   name: CTF Writeups
