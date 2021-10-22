@@ -4,5 +4,5 @@
   name: Presentations
 - link: /startpage/
   name: Startpage
-# - link: /writeups/
-#   name: CTF Writeups
+- link: /writeups/
+  name: CTF Writeups

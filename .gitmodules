@@ -4,6 +4,3 @@
 [submodule "presentations"]
 	path = presentations
 	url = https://github.com/westonbelk/presentations
-[submodule "_writeups"]
-	path = _writeups
-	url = https://github.com/westonbelk/ctf-writeups
