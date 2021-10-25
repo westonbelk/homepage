@@ -36,4 +36,4 @@ SSH with the provided credentials and grep for flag. We can see that we discover
 
 ## Continued On
 
-[Blood Bash 2](Blood%20Bash%202.md)
+[Blood Bash 2](Blood%20Bash%202)

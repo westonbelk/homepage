@@ -43,6 +43,7 @@ Submit the flag as `flag{SHA1 hash}`.
 ## Solution
 
 Use the DLL list function of volatility to list and dump the DLLs associated with our malicious process. Calculate the sha1sum for the userinit executable.
+
 ![](attachments/Pasted%20image%2020211018165831.png)
 
 `flag{f1fed7aca78502c041dba20e63e2e3fde07d0777}`

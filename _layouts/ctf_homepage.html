@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+{{ content }}
+
 {% assign problems = site.writeups | where: "type", "problem" | where: "ctf", ctf | where: "solved", true%}
 {% assign categories = problems | map: "category" | uniq %}
 

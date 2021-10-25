@@ -43,6 +43,7 @@ Instead, i just base64-encoded the file, copied the text to my local machine, th
 ![](attachments/Pasted%20image%2020211018162034.png)
 
 The flag.
+
 ![](attachments/Pasted%20image%2020211018162234.png)
 
 

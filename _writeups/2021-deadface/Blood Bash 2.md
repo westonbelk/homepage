@@ -29,11 +29,11 @@ Username: `bl0ody_mary` Password: `d34df4c3`
 `bloodbash.deadface.io:22`
 
 ## Solution
-In [Blood Bash](Blood%20Bash.md) we grepped for flag and discovered the flag for this challenge as well. (A hidden file in the documents directory.)
+In [Blood Bash](Blood%20Bash) we grepped for flag and discovered the flag for this challenge as well. (A hidden file in the documents directory.)
 
 
 ![](attachments/Pasted%20image%2020211018160943.png)
 
 ## Continued On
 
-[Blood Bash 3](Blood%20Bash%203.md)
+[Blood Bash 3](Blood%20Bash%203)

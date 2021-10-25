@@ -57,5 +57,5 @@ Pid 8180 appears to contain known malware signatures. Use the volatility pslist 
 
 ## Continued On
 
-[Window Pains 4](Window%20Pains%204.md)
+[Window Pains 4](Window%20Pains%204)
 

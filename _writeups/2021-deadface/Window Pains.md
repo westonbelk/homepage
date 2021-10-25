@@ -57,5 +57,5 @@ We can use the `windows.info` volatility function to get the information we need
 
 ## Continued On
 
-[Window Pains 2](Window%20Pains%202.md)
+[Window Pains 2](Window%20Pains%202)
 

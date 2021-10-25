@@ -4,6 +4,10 @@ img.profile {
 	margin: 10px;
 }
 
+img {
+	max-width: 100%;
+}
+
 footer {
 	text-align: center;
 	color: grey;
@@ -11,6 +15,10 @@ footer {
 
 body {
 	font-size: 18px;
+}
+
+pre {
+    tab-size: 4;
 }
 
 .media-object {

@@ -44,5 +44,5 @@ Checking services, we see that there is a udp service on port 43526. Using netca
 ![](attachments/Pasted%20image%2020211018161548.png)
 
 ## Continued On
-[Blood Bash 4](Blood%20Bash%204.md)
+[Blood Bash 4](Blood%20Bash%204)
 

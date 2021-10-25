@@ -1,7 +1,7 @@
-update: update-writeups update-presentations
-
-update-presentations:
+update: update-writeups
 
 
 update-writeups:
-	git submodule update --init --remote _writeups
+	find _writeups/* -type d -maxdepth 0 -exec rm -rf {} +
+	cp -r ../sec-writeups/CTFs/* _writeups/
+	find _writeups/ -type f -exec gsed -i 's/\.md)/)/g' {} +
