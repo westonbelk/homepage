@@ -7,7 +7,6 @@ tags:
 - pcap
 - wireshark
 - python
-- go
 
 # Jekyll
 layout: ctf
