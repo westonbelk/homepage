@@ -1,9 +1,3 @@
-img.profile {
-	float: right;
-	height: 400px;
-	margin: 10px;
-}
-
 img {
 	max-width: 100%;
 }
@@ -21,6 +15,8 @@ pre {
     tab-size: 4;
 }
 
+
+/* Presentations CSS */
 .media-object {
 	width: 256px;
 }

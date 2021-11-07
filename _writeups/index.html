@@ -1,0 +1,25 @@
+---
+layout: default
+
+# CTF info
+title: CTF Writeups
+hero-title: CTF Writeups
+hero-text: A collection of writeups for challenges I've encountered in past CTF events.
+---
+
+<!-- Make this a combo box in an include (similar to navigation). Should also have optional filtering for tags in that ctf/problem: -->
+
+<!-- {% assign problems_tags = site.writeups | where: "type", "problem" | where: "solved", true %} -->
+
+
+
+
+{% assign events = site.writeups | where: "type", "homepage" %}
+
+{% for event in events  %}
+
+<h2>{{event.title}}</h2>
+
+<a href="{{event.url}}">Writeups</a>
+
+{% endfor %}
