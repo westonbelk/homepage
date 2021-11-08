@@ -24,15 +24,6 @@ solved: true
 
 # Window Pains 3
 
-## Prerequisites
-
-### Install Volatility
-```bash
-$ python3 -m venv venv/
-$ source venv/bin/activate
-(venv) $ pip install volatility3 yara-python pycryptodome capstone
-```
-
 ## Instructions
 
 Using the [memory dump file](#) from **Window Pains**, find out the name of the malicious process.
@@ -40,6 +31,16 @@ Using the [memory dump file](#) from **Window Pains**, find out the name of the 
 Submit the flag as `flag{process-name_pid}` (include the extension).
 
 Example: `flag{svchost.exe_1234}`
+
+## Prerequisites
+Python `requirements.txt`:
+
+```bash
+volatility3
+yara-python
+pycryptodome
+capstone
+```
 
 ## Solution
 

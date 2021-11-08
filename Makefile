@@ -2,9 +2,9 @@ update: update-writeups
 
 
 update-writeups:
-	find _writeups/* -type d -maxdepth 0 -exec rm -rf {} +
+	find _writeups/* -maxdepth 0 -type d -exec rm -rf {} +
 	cp -r ../sec-writeups/CTFs/* _writeups/
-	find _writeups/ -type f -exec gsed -i 's/\.md)/)/g' {} +
+	find _writeups/ -type f -exec sed -i 's/\.md)/)/g' {} +
 
 submodules: update-submodules
 

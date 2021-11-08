@@ -23,15 +23,6 @@ solved: true
 
 # Window Pains 4
 
-## Prerequisites
-
-### Install Volatility
-```bash
-$ python3 -m venv venv/
-$ source venv/bin/activate
-(venv) $ pip install volatility3 yara-python pycryptodome capstone
-```
-
 ## Instructions
 
 We want to see if any other machines are infected with this malware. Using the [memory dump file](#) from **Window Pains**, submit the SHA1 checksum of the malicious process.
@@ -39,6 +30,16 @@ We want to see if any other machines are infected with this malware. Using the [
 Submit the flag as `flag{SHA1 hash}`.
 
 **CAUTION** Practice good cyber hygiene! Use an isolated VM to download/run the malicious process. While the malicious process is relatively benign, if you're using an insecurely-configured Windows host, it may be possible for someone to compromise your machine if they can reach you on the same network.
+
+## Prerequisites
+Python `requirements.txt`:
+
+```bash
+volatility3
+yara-python
+pycryptodome
+capstone
+```
 
 ## Solution
 

@@ -32,6 +32,18 @@ Example: flag{80,110,111,143,443,2049}
 
 Use the PCAP from **LYTTON LABS 01 - Monstrum ex Machina**.
 
+## Prerequisites
+Python `requirements.txt`:
+```
+pyshark
+```
+
+
+Golang packages:
+```
+gopacket
+```
+
 ## Solution
 
 ### Find the hosts
