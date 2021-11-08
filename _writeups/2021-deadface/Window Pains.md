@@ -35,12 +35,13 @@ SHA1: 293c3a2a58ed7b15a8454f6dcd8bec0773ba550e
 Password: `d34df4c3`
 
 ## Prerequisites
+Python `requirements.txt`:
 
-### Install Volatility
 ```bash
-$ python3 -m venv venv/
-$ source venv/bin/activate
-(venv) $ pip install volatility3 yara-python pycryptodome capstone
+volatility3
+yara-python
+pycryptodome
+capstone
 ```
 
 ## Solution

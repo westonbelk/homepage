@@ -22,20 +22,21 @@ solved: true
 
 # Window Pains 2
 
-## Prerequisites
-
-### Install Volatility
-```bash
-$ python3 -m venv venv/
-$ source venv/bin/activate
-(venv) $ pip install volatility3 yara-python pycryptodome capstone
-```
-
 ## Instructions
 
 Using the [memory dump file](#) from **Window Pains**, submit the victim's computer name.
 
 Submit the flag as `flag{COMPUTER-NAME}`.
+
+## Prerequisites
+Python `requirements.txt`:
+
+```bash
+volatility3
+yara-python
+pycryptodome
+capstone
+```
 
 ## Solution
 
