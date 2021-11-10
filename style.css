@@ -1,9 +1,3 @@
-img.profile {
-	float: right;
-	height: 400px;
-	margin: 10px;
-}
-
 img {
 	max-width: 100%;
 }
@@ -21,6 +15,39 @@ pre {
     tab-size: 4;
 }
 
+/* Nav bar styles */
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.beige { background-color: #f8f8f8;}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+main {
+	padding-bottom: 46px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 93px;
+	line-height: 60px; /* Vertically center the text there */
+	/* background-color: #f5f5f5; */
+}
+
+
+/* Presentations CSS */
 .media-object {
 	width: 256px;
 }
@@ -41,45 +68,21 @@ pre {
 	width: 50%;
 }
 
-/* Github Table Styles */
-
-table {
-	padding: 0;
+/* CTF writeup cards */
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+	color: inherit;
+	text-decoration: inherit;
 }
 
-table tr {
-	border-top: 1px solid #cccccc;
-	background-color: white;
-	margin: 0;
-	padding: 0;
+/* Table styles for ctf writeup challenge pages */
+thead {
+	background-color: #e9ecef;
 }
 
 table tr:nth-child(2n) {
 	background-color: #f8f8f8;
 }
 
-table tr th {
-	font-weight: bold;
-	border: 1px solid #cccccc;
-	text-align: left;
-	margin: 0;
-	padding: 6px 13px;
-}
-
-table tr td {
-	border: 1px solid #cccccc;
-	text-align: left;
-	margin: 0;
-	padding: 6px 13px;
-}
-
-table tr th :first-child, table tr td :first-child {
-	margin-top: 0;
-}
-
-table tr th :last-child, table tr td :last-child {
-	margin-bottom: 0;
-}
 
 /* Mobile Styles */
 

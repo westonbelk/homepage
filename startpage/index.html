@@ -55,7 +55,10 @@ hero-text: What the large print giveth, the small print taketh away.
 
 <form method="get" action="https://www.google.com/search" autocomplete="off">
 	<div class="input-group input-group-lg" style="width:100% !important;">
-		<span class="input-group-addon" id="google-label">Google</span>
+		<div class="input-group-prepend">
+			<div class="input-group-text">Google</div>
+		</div>
+		<!-- <span class="input-group-addon" id="google-label">Google</span> -->
 		<input class="form-control" type="text" name="q" aria-describedby="google-label" autocomplete="off"/>
 	</div>
 </form>
