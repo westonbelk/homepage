@@ -19,7 +19,7 @@ type: problem
 ctf: 2021-damctf
 category: misc
 title: Imp3rs0nAt0r-1
-points: {{points}}
+points: 442
 solved: true
 ---
 
@@ -35,15 +35,21 @@ Flag is in standard flag format.
 
 [UsrClass.dat](#)
 
+## Prerequisites
+Python `requirements.txt`:
+```
+discord.py
+```
+
 ## Solution
 
-Opening the UsrClass.dat in ShellBags Explorer shows that our attacker had some git repositories on his machine. Looking for these repositories online leads us to the attacker's Github page where these repos are found. https://github.com/nc-lnvp
+Opening the UsrClass.dat in ShellBags Explorer shows that our attacker had some git repositories on his machine. Looking for these repositories online leads us to the attacker's Github page where these repos are found. [https://github.com/nc-lnvp](https://github.com/nc-lnvp)
 
 ![](attachments/Pasted%20image%2020211107082651.png)
 
 There are leaked credentials for a discord located in the repository at:
 
-https://github.com/nc-lnvp/h4ckerman-3000-bot/blob/main/bot.py
+[https://github.com/nc-lnvp/h4ckerman-3000-bot/blob/main/bot.py](https://github.com/nc-lnvp/h4ckerman-3000-bot/blob/main/bot.py)
 
 Using  `discord.py` we can dump the message history of the channels that the bot is in.
 

@@ -15,7 +15,7 @@ type: problem
 ctf: 2021-damctf
 category: crypto
 title: xorpals
-points: {{points}}
+points: 188
 solved: true
 ---
 

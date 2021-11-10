@@ -18,8 +18,20 @@ hero-text: A collection of writeups for challenges I've encountered in past CTF 
 
 {% for event in events  %}
 
-<h2>{{event.title}}</h2>
-
-<a href="{{event.url}}">Writeups</a>
+<a href="{{event.url}}" class="link-unstyled">
+<div class="card mb-5">
+    <div class="row">
+        <div class="col-md-4">
+        <img src="{{event.ctf}}/attachments/icon.png" class="card-img" alt="{{event.title}} logo">
+        </div>
+        <div class="col-md-8">
+        <div class="card-body">
+            <h2 class="card-title">{{event.title}}</h5>
+            <p class="card-text">{{event.ctf-description}}</p>
+        </div>
+        </div>
+    </div>
+</div>
+</a>
 
 {% endfor %}

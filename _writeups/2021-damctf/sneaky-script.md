@@ -21,7 +21,7 @@ type: problem
 ctf: 2021-damctf
 category: malware
 title: sneaky-script
-points: {{points}}
+points: 333
 solved: true
 ---
 

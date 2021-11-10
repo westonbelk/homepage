@@ -15,7 +15,7 @@ type: problem
 ctf: 2021-damctf
 category: misc
 title: library-of-babel
-points: {{points}}
+points: 462
 solved: true
 ---
 

@@ -4,6 +4,7 @@ layout: default
 
 {{ content }}
 
+
 {% assign problems = site.writeups | where: "type", "problem" | where: "ctf", page.ctf | where: "solved", true %}
 {% assign categories = problems | map: "category" | uniq %}
 
@@ -11,15 +12,19 @@ layout: default
 {% assign category_problems = problems | where: "category", category | sort: "points" %}
 
 <h1>{{category|capitalize}}</h1>
-<table>
-<tr><th>Name</th><th>Points</th><th>Tags</th></tr>
+<div class="pb-5">
+    <table class="table table-bordered">
+    <thead>
+    <tr><th>Name</th><th>Points</th><th>Tags</th></tr>
+    </thead>
 
-{% for problem in category_problems %}
-{% assign problem_tags = problem.tags | where_exp: "item", "item != problem.ctf" | where_exp: "item", "item != 'ctf'" %}
+    {% for problem in category_problems %}
+    {% assign problem_tags = problem.tags | where_exp: "item", "item != problem.ctf" | where_exp: "item", "item != 'ctf'" %}
 
-<tr><td><a href="{{problem.url}}">{{problem.title}}</a></td><td>{{ problem.points }}</td><td>{{ problem_tags | join: ", " }}</td></tr>
+    <tr><td><a href="{{problem.url}}">{{problem.title}}</a></td><td>{{ problem.points }}</td><td>{{ problem_tags | join: ", " }}</td></tr>
 
-{% endfor %}
+    {% endfor %}
 
-</table>
+    </table>
+</div>
 {% endfor %}
