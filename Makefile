@@ -9,4 +9,4 @@ update-writeups:
 submodules: update-submodules
 
 update-submodules:
-	git submodule update
+	git submodule update --init --remote --recursive

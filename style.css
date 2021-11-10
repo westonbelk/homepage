@@ -48,17 +48,6 @@ main {
 
 
 /* Presentations CSS */
-.media-object {
-	width: 256px;
-}
-
-.media {
-	padding: 5px;
-	border-width: 5px;
-	border-color: lightgrey;
-	border-style: solid;
-	border-radius: 6px;
-}
 
 .btn {
 	font-size: 16px;
@@ -89,19 +78,6 @@ table tr:nth-child(2n) {
 @media screen and (max-width: 767px) {
 	.mobile-full-width {
 		width: 100%;
-	}
-
-	/* Presentations Page - Media blocks */
-	.media-left {
-		display: block;
-	}
-
-	.media-body h3 {
-		text-align: center;
-	}
-
-	.media-object {
-		margin: auto auto;
 	}
 
 	/* Homepage floating */

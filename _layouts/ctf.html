@@ -31,7 +31,9 @@
 		</header>
 
 		<section>
-			{{ content }}
+			<!-- Remove duplicate title for the problem -->
+			{% assign h1_tag = page.title | prepend: "# " | markdownify %}
+			{{ content | remove_first: h1_tag }}
 		</section>
 	</article>
 </main>
