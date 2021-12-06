@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
 ```
 
-```bash
+```shell
 $ python3 -m xorpals
 dam{antman_EXPANDS_inside_tHaNoS_never_sinGLE_cHaR_xOr_yeet}
 xor value: 69

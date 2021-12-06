@@ -37,7 +37,7 @@ We recovered a malicious script from a victim environment. Can you figure out wh
 
 In the included files.zip we have a shell script and a pcap file. The shell script is as follows:
 
-```bash
+```shell
 #!/bin/bash
 
 rm -f "${BASH_SOURCE[0]}"
@@ -61,7 +61,7 @@ rm -f /tmp/.cacheimg
 
 In wireshark we can filter for the `54.80.43.46` ip address and grab the base64 string in the response to the curl request. Decoding it gives us a byte-compiled python string.
 
-```bash
+```shell
 $ file curl-response 
 curl-response: python 3.6 byte-compiled
 ```

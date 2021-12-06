@@ -61,7 +61,7 @@ if __name__ == "__main__":
     main(world_folder)
 ```
 
-```bash
+```shell
 $ python -m nbt_scan
 minecraft:lectern at -95,39,186
 minecraft:lectern at -94,37,184
