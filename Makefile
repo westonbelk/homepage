@@ -10,3 +10,13 @@ submodules: update-submodules
 
 update-submodules:
 	git submodule update --init --remote --recursive
+
+# Running locally
+#
+# git clone ssh://git@github.com/github/pages-gem
+# cd pages-gem/
+# make image
+#
+# cd homepage/ (this repository)
+# docker run --rm -it -v .:/src/site -p4000:4000 --security-opt label=disable gh-pages
+#
