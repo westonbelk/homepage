@@ -55,11 +55,11 @@ $ cd repository/
 $ git switch -c master
 ```
 
-Each of the commits in this git repository seemed to have a single WAVE audio file named `data`. Listening to these files, they seem to be morse code. Putting the commit at HEAD through an [online morse code decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html), we get the following message:
+Each of the commits in this git repository have a single WAVE audio file named `data`. Listening to these files, they seem to be morse code. Putting the commit at HEAD through an [online morse code decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html), we get the following message:
 
 `ECHOQUEBECUNIFORMALFALIMASIERRASIERRAINDIAGOLFNOVEMBER`
 
-The words contained within this string seem to be from the NATO phonetic alphabet which map to letters. Translating this, we get the word "equals sign".
+The words contained within this string are from the NATO phonetic alphabet which map to individual letters. Translating this, we get the word "equals sign".
 
 From here, I exported all of the commits in order to a local directory to make them a bit easier to work with in bulk.
 
@@ -89,14 +89,14 @@ $ ls snapshots/ | head -n 4
 03016.wav
 ```
 
-Doing a bit of analysis on the folder, even though we have 3016 .wav files only 33 of them are unique.
+Doing a bit of analysis on the folder, even though there are 3016 .wav files only 33 of them are unique.
 
 ```
 $ md5sum snapshots/*.wav | cut -d ' ' -f 1 | sort | uniq | wc -l
 33
 ```
 
-I exported the unique .wav files to a directory. From there, I used a combination of morse2ascii and the previously mentioned online morse code decoder to build a mapping between .wav file hash and the corresponding letter(s) from the NATO phonetic alphabet.  
+I exported the unique .wav files to a directory named by hash to make them a bit easier to work with. From there, I used a combination of morse2ascii and the previously mentioned online morse code decoder to build a mapping between .wav file hash and the corresponding letter(s) from the NATO phonetic alphabet.  
 
 ```python
 def write_unique():
@@ -161,7 +161,7 @@ hashtable = {
 }
 ```
 
-Lastly, I wrote some more Python to iterate through each .wav file/commit, compute the hash, and output the letter mapping to build the final string. This gave what I determined to be a backwards (since we were going from last commit to first) base32 string, which when decoded, gave a gunzipped archive. Reversing the string, converting the letters to uppercase, decoding the base32 string, and decompressing the archive gives us the final message and flag.  
+Finally, I wrote some more Python to iterate through each .wav file/commit, compute the hash, and output the letter mapping to build the final string. This gave what I determined to be a backwards (since we were going from last commit to first) base32 string, which when decoded, gave a gunzipped archive. Reversing the string, converting the letters to uppercase, decoding the base32 string, and decompressing the archive gives us the final message and flag.  
 
 ```python
 def translate():
