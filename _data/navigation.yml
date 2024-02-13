@@ -2,7 +2,7 @@
   name: Home
 - link: /presentations/
   name: Presentations
-- link: /startpage/
-  name: Startpage
+- link: /web-projects/
+  name: Web Projects
 - link: /writeups/
   name: CTF Writeups
