@@ -11,12 +11,8 @@ submodules: update-submodules
 update-submodules:
 	git submodule update --init --remote --recursive
 
-# Running locally
-#
-# git clone ssh://git@github.com/github/pages-gem
-# cd pages-gem/
-# make image
-#
-# cd homepage/ (this repository)
-# docker run --rm -it -v .:/src/site -p4000:4000 --security-opt label=disable gh-pages
+
+run: 
+	docker run --rm -it -v $(shell pwd):/src/site -p4000:4000 gh-pages sh -c "bundle add webrick && bundle install && jekyll serve -H 0.0.0.0 -P 4000"
+
 #
